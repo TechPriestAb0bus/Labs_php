@@ -1,1 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    color: #063cb0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0px;
+    padding: 10px;
+    border: 2px solid #e3e3e3;
+}
+
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+
+.error_massage {
+    border: 2px solid #ff0000;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    text-weight: bold;
+}
+
+.success_massage {
+    border: 2px solid #22ff00;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    text-weight: bold;
+}
