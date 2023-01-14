@@ -18,9 +18,9 @@ else {
 <body>
     <form>
         <h2>Name: <?= $_SESSION['user']['full_name'] ?></h2>
-        <h2>id: <?= $_SESSION['user']['id'] ?></h2>
-        <h2>email: <?= $_SESSION['user']['email'] ?></h2>
-        <a href="config/logout.php" class="logout">Выход</a>
+        <h2>id: <?= $_SESSION['user']['email'] ?></h2>
+        <h2>email: <?= $_SESSION['user']['login'] ?></h2>
+        <a href="config/logout.php" style="font-size: 25px; font-weight: bold;" class="logout">Exit</a>
     </form>
 </body>
 </html>
